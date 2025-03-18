@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #eef2f7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #2c5282;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            margin-right: 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .description, .biography {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        span.highlight {
+            color: #2c5282;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="photo">
+            <img src="http://localhost/mycv/images/profile.jpg" alt="Profile Photo">
+            </div>
+            <div>
+                <h1>Bonardo Ravel</h1>
+                <p><span class="highlight">Web Developer | Data Science Enthusiast</span></p>
+            </div>
+        </div>
+
+        <div class="description">
+            <h2>Deskripsi</h2>
+            <p>Saya mahasiswa Fakultas Ilmu Komputer Universitas Brawijaya. Memiliki skill keahlian dalam <span class="highlight">Java, Python</span>, dan berbagai <span class="highlight">Framework Modern</span>. Saya memiliki kemampuan dalam analisis data serta optimasi algoritma yang dapat mendukung pengembangan <span class="highlight">Artificial Intelligence dan Data Science</span>. Saya juga aktif mengikuti kompetisi pemrograman dan memiliki pengalaman dalam mengembangkan proyek berbasis AI.</p>
+            <p>Selain itu, saya memiliki keterampilan dalam <span class="highlight">Problem Solving, Critical Thinking,</span> dan mampu bekerja dalam tim dengan baik. Saya selalu bersemangat untuk mempelajari teknologi baru dan menerapkannya dalam dunia industri.</p>
+        </div>
+
+        <div class="biography">
+            <h2>Biografi</h2>
+            <p>Lahir di Sukoharjo tahun 2004, dengan pendidikan terakhir SMA penjurusan MIPA dengan nilai A. Sejak kecil memiliki ketertarikan di dunia teknologi dan perkembangan modern.</p>
+            <p>Saya telah mengikuti berbagai <span class="highlight">Bootcamp Data Science</span>, seminar teknologi, serta proyek kolaboratif dalam pengembangan <span class="highlight">Machine Learning</span>. Saya juga aktif dalam komunitas teknologi dan berkontribusi dalam forum diskusi terkait AI.</p>
+            <div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
